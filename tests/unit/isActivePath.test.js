@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { isActivePath } from "../js/utils/userInterface.js";
+import { isActivePath } from "../../js/utils/userInterface.js";
 
 describe("isActivePath", () => {
   it("returns true when paths match exactly", () => {
@@ -12,7 +12,7 @@ describe("isActivePath", () => {
   });
 
   it("returns true when current path includes href", () => {
-    expect(isActivePath("/venues/123", "/venues")).toBe(true);
+    expect(isActivePath("/venues", "/venues/123")).toBe(true);
   });
 
   it("returns false when paths do not match", () => {

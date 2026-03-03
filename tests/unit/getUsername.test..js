@@ -1,6 +1,6 @@
-import { getUserName } from "../js/utils/storage.js";
+import { getUsername } from "../../js/utils/storage.js";
 
-describe("getUserName", () => {
+describe("getUsername", () => {
   beforeEach(() => {
     localStorage.clear();
   });
@@ -9,10 +9,10 @@ describe("getUserName", () => {
     const user = { name: "Mila" };
     localStorage.setItem("user", JSON.stringify(user));
 
-    expect(getUserName()).toBe("Mila");
+    expect(getUsername()).toBe("Mila");
   });
 
   it("returns null if no user exists", () => {
-    expect(getUserName()).toBeNull();
+    expect(getUsername()).toBeNull();
   });
 });
