@@ -1,3 +1,4 @@
+import { describe, it, expect } from "vitest";
 import { isActivePath } from "../js/utils/userInterface.js";
 
 describe("isActivePath", () => {
