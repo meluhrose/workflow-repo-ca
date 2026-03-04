@@ -1,3 +1,4 @@
+import { describe, it, expect, beforeEach } from "vitest";
 import { getUsername } from "../../js/utils/storage.js";
 
 describe("getUsername", () => {

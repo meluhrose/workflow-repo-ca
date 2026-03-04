@@ -6,6 +6,6 @@ test("venue navigation works", async ({ page }) => {
     await page.waitForSelector("#venue-container a");
     await page.locator("#venue-container a").first().click();
 
-    await expect(page.locator("h1").first()).toContainText("venue details");
+    await expect(page.locator("h1").first()).toContainText("Venue details");
 
 });
