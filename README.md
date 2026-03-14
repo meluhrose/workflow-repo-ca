@@ -36,15 +36,21 @@ npm run test:e2e
 ```
 
 **Test login functionality:**
-User can successfully log in with valid credentials from environment variables.
-User sees an error message with invalid credentials.
-Include .env in .gitignore and include a .env.example in the branch.
+
+-User can successfully log in with valid credentials from environment variables.
+
+-User sees an error message with invalid credentials.
+
+-Include .env in .gitignore and include a .env.example in the branch.
 
 **Test navigation functionality:** 
-Navigates to the home page 
-Waits for the venue list to load 
-Clicks the first venue 
-Verifies that the venue details page loads with "Venue details" in the heading
+-Navigates to the home page 
+
+-Waits for the venue list to load 
+
+-Clicks the first venue 
+
+-Verifies that the venue details page loads with "Venue details" in the heading
 
 ## Enviornment Variables
 Create a `.env` file in the project root.

@@ -7,7 +7,18 @@ Outcome: Playwright was installed, but not @Playwright/test which is crucial for
 ![Issues with testing e2e](image.png)
 
 Date: 04.03.26
+
 Purpose: Explanation to e2e test fail. Was not quite understanding why I kept receiving failed tests in login.spec.js after changes.
+
 Outcome: It broke down the reasons behind the failed tests and how to fix this. Also, gave me direction on what to look into if my tests continued to fail.
 
 ![Test e2e fail explanation ](image-1.png)
+
+
+
+Date: 14.03.26
+
+Purpose: Kept receiving commit failures after installing Husky.
+
+Outcome: Helped me understand each error I kept receiving and why the changes helped to allow the commit to go through. 
+![Husky Install](image-2.png)
